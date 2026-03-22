@@ -5,14 +5,14 @@ from sklearn.cluster import KMeans
 # Create a dataset representing customers with 2 features: amount spent and number of visits
 # Dataset for 8 customers
 customers = np.array([
-    [100, 1],  # High spender, many visits
+    [500, 5],  # High spender, many visits
     [200, 2],  # Medium spender, few visits
-    [300, 3],  # Low spender, few visits
-    [400, 4],  # High spender, many visits
-    [500, 5],   # Low spender, few visits
-    [600, 6],  # Medium spender, medium visits
-    [700, 7],  # High spender, medium visits
-    [800, 8]   # Low spender, few visits
+    [100, 1],  # Low spender, few visits
+    [800, 6],  # High spender, many visits
+    [50, 1],   # Low spender, few visits
+    [300, 3],  # Medium spender, medium visits
+    [700, 4],  # High spender, medium visits
+    [150, 2]   # Low spender, few visits
 ])
 
 # Choose number of clusters (KMeans model with n_clusters = 2)
